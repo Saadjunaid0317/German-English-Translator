@@ -1,0 +1,24 @@
+# Python virtual environment folder
+/ger_eng/
+venv/
+*.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Large data files
+*.zip
+deu.txt
+
+# Trained model artifacts (these are very large and should be regenerated)
+/training_checkpoints/
+*.pickle
+
+# Graph image file
+*.png
+
+# IDE / OS specific files
+.idea/
+.vscode/
+.DS_Store
